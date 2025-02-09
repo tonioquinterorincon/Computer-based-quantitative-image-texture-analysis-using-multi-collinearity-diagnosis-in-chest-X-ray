@@ -14,8 +14,8 @@ for k=1:numel(files)
   Image{k}=imread(files{k});
 end
 
-%Normal         = Image;
-covid          = Image;
-%lungOpacity    = Image;
+%noncovid       = Image;
+covid           = Image;
+%lungop         = Image;
 %viralPneumonia = Image;
 
